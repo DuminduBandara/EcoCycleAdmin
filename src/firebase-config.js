@@ -2,6 +2,8 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
+
 const firebaseConfig = {
   apiKey: "AIzaSyBNGoR6AtDK1eAt3___50piTlkqEnu1fP0",
   authDomain: "ecocycleadmin.firebaseapp.com",

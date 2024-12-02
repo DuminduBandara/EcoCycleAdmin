@@ -11,6 +11,9 @@ export default function Destinations() {
         <Button variant="contained" sx={{ background: "#04bd4e" }} onClick={()=> navigate('/addDestination')}>
           Add New Destination
         </Button>
+        <Box>
+
+        </Box>
       </Box>
     </Box>
   );
